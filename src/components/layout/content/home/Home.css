@@ -1,0 +1,352 @@
+.home-directional {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 20px;
+    top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF9138;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.home-content {
+    position: relative;
+    width: 1112px;
+    height: 397px;
+    left: 20px;
+    top: 168px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+    border-radius: 12px;
+}
+
+.home-content_avatar {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    left: 24px;
+    top: 40px;
+    border-radius: 318px;
+    background: url(./avatar.jpg) top center / cover no-repeat;
+}
+
+.home-content_camera {
+    position: absolute;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    left: 195px;
+    top: 246px;
+    background: #FF7506;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.home-content_name {
+    position: absolute;
+    width: 300px;
+    height: 36px;
+    left: 20px;
+    top: 307px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #282739;
+}
+
+
+.home-content_uername-title {
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 320px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_namelogin-title {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 700px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_phonenumber-title {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 320px;
+    top: 140px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_password-title {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 700px;
+    top: 140px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_email-title {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 320px;
+    top: 240px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_role-title {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 700px;
+    top: 240px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.home-content_uername-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 320px;
+    top: 72px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_uername-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.home-content_phonenumber-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 320px;
+    top: 172px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_phonenumber-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.home-content_email-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 320px;
+    top: 272px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_email-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.home-content_namelogin-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 700px;
+    top: 72px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_namelogin-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.home-content_password-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 700px;
+    top: 172px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_password-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.home-content_role-background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 700px;
+    top: 272px;
+    background: #EAEAEC;
+    border-radius: 6px;
+}
+
+.home-content_role-content {
+    position: static;
+    width: inherit;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535261;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+
+
+

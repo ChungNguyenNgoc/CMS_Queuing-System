@@ -1,0 +1,25 @@
+.header {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 30px;
+    width: 100px;
+
+}
+
+.header_icon-notification {
+    width: 22px;
+    height: 42px;
+    color: #FFAC6A;
+    border-radius: 32px;
+    margin-right: 12px;
+    display: block;
+}
+
+.header_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 48px;
+    background: url(../content/home/avatar.jpg) top center / cover no-repeat;
+    display: block;
+}
